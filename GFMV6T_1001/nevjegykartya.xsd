@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ceg">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cim"/>
+				<xs:element ref="nev"/>
+				<xs:element ref="telefonszam"/>
+				<xs:element ref="weblap"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="iranyitoszam">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="cim">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="iranyitoszam"/>
+				<xs:element ref="varos"/>
+				<xs:element ref="utca"/>
+				<xs:element ref="hazszam"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="varos">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="nevjegykartya">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nev"/>
+				<xs:element ref="ceg"/>
+				<xs:element ref="beosztas"/>
+				<xs:element ref="telefonszam"/>
+				<xs:element ref="email"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="weblap">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="utca">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="hazszam">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="beosztas">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="telefonszam">
+		<xs:complexType>
+			<xs:attribute name="korzet" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nev">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="email">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="nevjegykartyak">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nevjegykartya"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

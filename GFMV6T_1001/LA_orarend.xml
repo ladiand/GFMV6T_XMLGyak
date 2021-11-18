@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	<ora id="GEIAK120-BL" tipus="Kotelezo">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>2021.09.10</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/15 </helyszin>
+		<oktato>Dr. Samad Dadvandipour</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL314-BL" tipus="Kotelezoen valasztott">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>2021.09.17</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL30A-BL" tipus="Kotelezoen valasztott">
+		<targy>Windows rendszergazda</targy>
+		<idopont>
+			<nap>2021.09.17</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Wagner Gyorgy</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL333-BL" tipus="Szakiranyon valaszthato">
+		<targy>Web-es alkalmazasok (Java)</targy>
+		<idopont>
+			<nap>2021.09.18</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL332-BL" tipus="Szakiranyon kotelezo">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>2021.09.24</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK120-BL" tipus="Kotelezo">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>2021.09.24</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Samad Dadvandipour</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL331-BL" tipus="Szakiranyon kotelezo">
+		<targy>Web technologiak 1.</targy>
+		<idopont>
+			<nap>2021.09.25</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL332-BL" tipus="Szakiranyon kotelezo">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>2021.10.01</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK130-BL" tipus="Kotelezo">
+		<targy>Mesterseges intelligencia alapok</targy>
+		<idopont>
+			<nap>2021.10.02</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL30A-BL" tipus="Kotelezoen valasztott">
+		<targy>Windows rendszergazda</targy>
+		<idopont>
+			<nap>2021.10.08</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Wagner Gyorgy</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL314-BL" tipus="Kotelezoen valasztott">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>2021.10.08</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL333-BL" tipus="Szakiranyon valaszthato">
+		<targy>Web-es alkalmazasok (Java)</targy>
+		<idopont>
+			<nap>2021.10.15</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL331-BL" tipus="Szakiranyon kotelezo">
+		<targy>Web technologiak 1.</targy>
+		<idopont>
+			<nap>2021.10.16</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK130-BL" tipus="Kotelezo">
+		<targy>Mesterseges intelligencia alapok</targy>
+		<idopont>
+			<nap>2021.10.22</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK130-BL" tipus="Kotelezo">
+		<targy>Mesterseges intelligencia alapok</targy>
+		<idopont>
+			<nap>2021.11.05</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL333-BL" tipus="Szakiranyon valaszthato">
+		<targy>Web-es alkalmazasok (Java)</targy>
+		<idopont>
+			<nap>2021.11.06</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL314-BL" tipus="Kotelezoen valasztott">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>2021.11.12</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL30A-BL" tipus="Kotelezoen valasztott">
+		<targy>Windows rendszergazda</targy>
+		<idopont>
+			<nap>2021.10.12</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Wagner Gyorgy</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL331-BL" tipus="Szakiranyon kotelezo">
+		<targy>Web technologiak 1.</targy>
+		<idopont>
+			<nap>2021.11.13</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL332-BL" tipus="Szakiranyon kotelezo">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>2021.11.19</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK120-BL" tipus="Kotelezo">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>2021.11.19</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Samad Dadvandipour</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK130-BL" tipus="Kotelezo">
+		<targy>Mesterseges intelligencia alapok</targy>
+		<idopont>
+			<nap>2021.11.20</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL30A-BL" tipus="Kotelezoen valasztott">
+		<targy>Windows rendszergazda</targy>
+		<idopont>
+			<nap>2021.11.26</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Wagner Gyorgy</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL332-BL" tipus="Szakiranyon kotelezo">
+		<targy>Adatkezeles XML-ben</targy>
+		<idopont>
+			<nap>2021.11.26</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Bednarik Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL333-BL" tipus="Szakiranyon valaszthato">
+		<targy>Web-es alkalmazasok (Java)</targy>
+		<idopont>
+			<nap>2021.11.27</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/202</helyszin>
+		<oktato>Dr. Krizsan Zoltan</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK120-BL" tipus="Kotelezo">
+		<targy>Integralt vallalati rendszerek</targy>
+		<idopont>
+			<nap>2021.12.03</nap>
+			<tol>12.30</tol>
+			<ig>15.50</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Kulcsárne Forrai Monika</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL314-BL" tipus="Kotelezoen valasztott">
+		<targy>Szoftverteszteles</targy>
+		<idopont>
+			<nap>2021.12.03</nap>
+			<tol>16.00</tol>
+			<ig>19.30</ig>
+		</idopont>
+		<helyszin>In/103</helyszin>
+		<oktato>Kunne Tamas Judit</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAL331-BL" tipus="Szakiranyon kotelezo">
+		<targy>Web technologiak 1.</targy>
+		<idopont>
+			<nap>2021.12.04</nap>
+			<tol>8.30</tol>
+			<ig>11.50</ig>
+		</idopont>
+		<helyszin>In/102</helyszin>
+		<oktato>Agardi Anita</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+	<ora id="GEIAK130-BL" tipus="Kotelezo">
+		<targy>Mesterseges intelligencia alapok</targy>
+		<idopont>
+			<nap>2021.12.04</nap>
+			<tol>12.20</tol>
+			<ig>15.40</ig>
+		</idopont>
+		<helyszin>In/15</helyszin>
+		<oktato>Dr. Dudas Laszlo</oktato>
+		<szak>Mernokinformatikus</szak>
+	</ora>
+</orarend>
