@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="kolcsonzo">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref='ugyfel'/>
+			<xs:element ref='kolcsadatok'/>
+			<xs:element ref='kolcsonzes'/>
+			<xs:element ref="kolcslista"/>
+			<xs:element ref="raktar"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:element name="ugyfel">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="nev" type="xs:string"></xs:element>
+			<xs:element name="szulido" type="xs:date"></xs:element>
+			<xs:element name="telefon" type="xs:integer"></xs:element>
+			<xs:element ref="lakcim"/>
+		</xs:sequence>
+		<xs:attribute name="szigszam" use="required" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="lakcim">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="varos" type="xs:string"></xs:element>
+			<xs:element name="iranyitoszam" type="xs:integer"></xs:element>
+			<xs:element name="hazszam" type="xs:integer"></xs:element>
+			<xs:element name="utca" type="xs:string"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+<xs:element name="kolcsadatok">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="datum"></xs:element>
+			<xs:element name="lejarat"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="raktarid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+<xs:element name="kolcslista">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="gyarto" type="xs:string"></xs:element>
+			<xs:element name="tipus" type="xs:string"></xs:element>
+			<xs:element name="darab" type="xs:integer"></xs:element>
+			<xs:element name="nyilvantart" type="xs:string"></xs:element>
+			<xs:element name="ar" type="xs:integer"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+<xs:element name="raktar">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="isz" type="xs:integer"></xs:element>
+			<xs:element name="telepules" type="xs:string"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="raktarid" use="required" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+<xs:element name="kolcsonzes">
+	<xs:complexType>
+		<xs:attribute name="ugyfelid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

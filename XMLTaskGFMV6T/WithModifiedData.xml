@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<kolcsonzo>
+    	
+    <kolcsonzes rendelesid="111111" ugyfelid="123456AB"/>
+    	
+    <ugyfel szigszam="123456AB">
+        		
+        <nev>Mikes Kelemen</nev>
+        		
+        <szulido>1978.05.12</szulido>
+        		
+        <telefon>123456</telefon>
+        		
+        <lakcim id="123456AB">
+            			
+            <varos>Miskolc</varos>
+            			
+            <iranyitoszam>3525</iranyitoszam>
+            			
+            <utca>Számozatlan utca</utca>
+            			
+            <hazszam>23</hazszam>
+            		
+        </lakcim>
+        	
+    </ugyfel>
+    	
+    <kolcslista rendelesid="111111">
+        		
+        <gyarto>Botgyár</gyarto>
+        		
+        <tipus>Horgászbot</tipus>
+        		
+        <darab>2</darab>
+        		
+        <nyilvantart>456ABC</nyilvantart>
+        		
+        <ar>3500</ar>
+        	
+    </kolcslista>
+    	
+    <kolcsadatok raktarid="3519A" rendelesid="111111">
+        		
+        <datum>2021.09.10</datum>
+        		
+        <lejarat>2021.11.01</lejarat>
+        	
+    </kolcsadatok>
+    	
+    <raktar raktarid="3519A">
+        		
+		
+        <telepules>Miskolc</telepules>
+        	
+        <kapacitas>500</kapacitas>
+    </raktar>
+    	
+    <kolcsonzes rendelesid="111111" ugyfelid="123456AB"/>
+    	
+    <ugyfel szigszam="654321CD">
+        		
+        <nev>Szabó Magda</nev>
+        		
+        <szulido>1978.05.12</szulido>
+        		
+        <telefon>123456</telefon>
+        		
+        <lakcim id="123456AB">
+            			
+            <varos>Miskolc</varos>
+            			
+            <iranyitoszam>3525</iranyitoszam>
+            			
+            <utca>Számozatlan utca</utca>
+            			
+            <hazszam>23</hazszam>
+            		
+        </lakcim>
+        	
+    </ugyfel>
+    	
+    <kolcslista rendelesid="111111">
+        		
+        <gyarto>Botgyár</gyarto>
+        		
+        <tipus>Horgászbot</tipus>
+        		
+        <darab>2</darab>
+        		
+        <nyilvantart>456ABC</nyilvantart>
+        		
+        <ar>3500</ar>
+        	
+    </kolcslista>
+    	
+    <kolcsadatok raktarid="4000A" rendelesid="111111">
+        		
+        <datum>2021.09.10</datum>
+        		
+        <lejarat>2021.11.01</lejarat>
+        	
+    </kolcsadatok>
+    	
+    <raktar raktarid="4000A">
+        		
+		
+        <telepules>Debrecen</telepules>
+        	
+        <kapacitas>500</kapacitas>
+    </raktar>
+    	
+</kolcsonzo>

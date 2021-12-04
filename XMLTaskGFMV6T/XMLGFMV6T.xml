@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kolcsonzo>
+	<kolcsonzes ugyfelid="" rendelesid=""></kolcsonzes>
+	<ugyfel szigszam=''>
+		<nev></nev>
+		<szulido></szulido>
+		<telefon></telefon>
+		<lakcim id=''>
+			<varos></varos>
+			<iranyitoszam></iranyitoszam>
+			<utca></utca>
+			<hazszam></hazszam>
+		</lakcim>
+	</ugyfel>
+	<kolcslista rendelesid="">
+		<gyarto></gyarto>
+		<tipus></tipus>
+		<darab></darab>
+		<nyilvantart></nyilvantart>
+		<ar></ar>
+	</kolcslista>
+	<kolcsadatok raktarid="" rendelesid="">
+		<datum></datum>
+		<lejarat></lejarat>
+	</kolcsadatok>
+	<raktar raktarid="">
+		<isz></isz>
+		<telepules></telepules>
+	</raktar>
+	</kolcsonzo>
