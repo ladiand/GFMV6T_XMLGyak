@@ -21,6 +21,10 @@
 		</xs:sequence>
 		<xs:attribute name="szigszam" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:key name="szigszamKulcs">
+				<xs:selector xpath="ugyfel"/>
+				<xs:field xpath="@szigszam"/>
+	</xs:key>
 </xs:element>
 <xs:element name="lakcim">
 	<xs:complexType>
@@ -30,8 +34,12 @@
 			<xs:element name="hazszam" type="xs:integer"></xs:element>
 			<xs:element name="utca" type="xs:string"></xs:element>
 		</xs:sequence>
-		<xs:attribute name="id" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="id" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:keyref name="szigszamIdegenKulcs" refer="szigszamKulcs">
+		<xs:selector xpath="ugyfel"/>
+		<xs:field xpath="szigszam"/>
+	</xs:keyref>
 </xs:element>
 <xs:element name="kolcsadatok">
 	<xs:complexType>
@@ -39,9 +47,17 @@
 			<xs:element name="datum"></xs:element>
 			<xs:element name="lejarat"></xs:element>
 		</xs:sequence>
-		<xs:attribute name="raktarid" use="required" type="xs:string"></xs:attribute>
-		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="raktarid" use="required" type="xs:string"/>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:key name="rendelesidKulcs">
+				<xs:selector xpath="kolcsadatok"/>
+				<xs:field xpath="@rendelesid"/>
+	</xs:key>
+	<xs:keyref name="rendelesidAdatokIdegenKulcs" refer="rendelesidKulcs">
+		<xs:selector xpath="kolcsadatok"/>
+		<xs:field xpath="rendelesid"/>
+	</xs:keyref>
 </xs:element>
 <xs:element name="kolcslista">
 	<xs:complexType>
@@ -52,8 +68,12 @@
 			<xs:element name="nyilvantart" type="xs:string"></xs:element>
 			<xs:element name="ar" type="xs:integer"></xs:element>
 		</xs:sequence>
-		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:keyref name="rendelesidListaIdegenKulcs" refer="rendelesidKulcs">
+		<xs:selector xpath="kolcslista"/>
+		<xs:field xpath="rendelesid"/>
+	</xs:keyref>
 </xs:element>
 <xs:element name="raktar">
 	<xs:complexType>
@@ -61,13 +81,25 @@
 			<xs:element name="isz" type="xs:integer"></xs:element>
 			<xs:element name="telepules" type="xs:string"></xs:element>
 		</xs:sequence>
-		<xs:attribute name="raktarid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="raktarid" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:key name="raktaridKulcs">
+				<xs:selector xpath="raktar"/>
+				<xs:field xpath="@raktarid"/>
+	</xs:key>
 </xs:element>
 <xs:element name="kolcsonzes">
 	<xs:complexType>
-		<xs:attribute name="ugyfelid" use="required" type="xs:string"></xs:attribute>
-		<xs:attribute name="rendelesid" use="required" type="xs:string"></xs:attribute>
+		<xs:attribute name="ugyfelid" use="required" type="xs:string"/>
+		<xs:attribute name="rendelesid" use="required" type="xs:string"/>
 	</xs:complexType>
+	<xs:keyref name="ugyfelidIdegenKulcs" refer="szigszamKulcs">
+		<xs:selector xpath="kolcsonzes"/>
+		<xs:field xpath="ugyfelid"/>
+	</xs:keyref>
+	<xs:keyref name="raktarIdegenKulcs" refer="rendelesidKulcs">
+		<xs:selector xpath="kolcsonzes"/>
+		<xs:field xpath="rendelesid"/>
+	</xs:keyref>
 </xs:element>
 </xs:schema>
